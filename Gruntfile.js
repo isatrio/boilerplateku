@@ -38,7 +38,28 @@ module.exports = function(grunt) {
 				}
 			}
 		},
+		uglify: {
+			dist: {
+				files: {
+					'assets/js/scripts.min.js': [jsfiles]
+				}
+			}
+		},
+		watch: {
+			sass: {
+				files: ['assets/scss/*.scss'],
+				tasks: ['sass:dev'],
+				options: {livereload: true}
+			},
+			js: {
+				files: [jsfiles],
+				tasks: ['jshint'],
+				options: { livereload: true}
+			},
+		}
 	});
 
-	grunt.registerTask('default', []);
+	grunt.registerTask('default', ['dev']);
+	grunt.registerTask('dev', ['jshint', 'sass:dev', 'uglify']);
+	grunt.registerTask('prod', ['jshint', 'sass:build', 'uglify']);
 };
