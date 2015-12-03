@@ -1,0 +1,29 @@
+{
+  "name": "boilerplateku",
+  "homepage": "https://github.com/isatrio/boilerplateku",
+  "authors": [
+    "isatrio <isatrio.is.me@gmail.com>"
+  ],
+  "description": "",
+  "main": "index.html",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "boilerplate"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-sass": "~3.3.6"
+  },
+  "devDependencies": {
+    "slick": "*"
+  }
+}
