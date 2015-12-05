@@ -6,3 +6,18 @@ body {
 	font-size: $font-size;
 	color: $base-color;
 }
+
+a { color: tomato;}
+
+ul {
+	li {
+		position: relative;
+		&:before{
+			content: '';
+			display: block;
+			position: absolute;
+			left: 0;
+			@extend .sprite-sprites-cart;
+		}
+	}
+}

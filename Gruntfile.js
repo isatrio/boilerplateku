@@ -7,8 +7,8 @@ module.exports = function(grunt) {
 	require('time-grunt')(grunt);
 
 	var jsfiles = [
-		'bower_components/jquery/dist/jquery.min.js',
-		'bower_components/bootstrap-sass/assets/javascripts/bootstrap.min.js', 
+		'bower/jquery/dist/jquery.min.js',
+		'bower/bootstrap-sass/assets/javascripts/bootstrap.min.js', 
 		'assets/js/main.js'
 		];
 
