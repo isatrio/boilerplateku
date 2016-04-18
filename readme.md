@@ -1,6 +1,6 @@
 # Boilerplateku
 
-Boilerplateku adalah hasil dari workshop di [nin3space](http://nin3space.com). Ikuti petunjuk di bawah untuk memulai memahami bagaimana caranya membuat sebuah boilerplate.
+Boilerplateku adalah sebuah boilerplate untuk memulai sebuah proyek dengan memanfaatkan alat-alat front end seperti git, npm, grunt, dan bower. Ikuti petunjuk di bawah untuk memulai memahami bagaimana caranya membuat sebuah boilerplate.
 
 Sebelum memulai kunjungi lebih dahulu link berikut [front-end-tools](http://github.com/isatrio/front-end-tools) untuk menginstal paket yang dibutuhkan.
 
